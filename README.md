@@ -10,9 +10,9 @@ Predict whether a hotel booking will be canceled (`is_canceled` = 1) or not (0) 
 - Preprocessing: removed leakage columns (`reservation_status`, `reservation_status_date`, `assigned_room_type`), dropped irrelevant / high-cardinality columns (`arrival_date_year`, `country`, `agent`, `company`), filled missing `children` with 0, replaced negative `adr` with the median, removed rows with 0 adults and outlier rows (10 children / 10 babies), label-encoded the month, and one-hot encoded the remaining categorical columns.
 
 ## c. GitHub Repository Link
-[PASTE GITHUB REPO LINK HERE]
+https://github.com/saurabh1227/Hotel-Cancellation-ML
 
-Live app: [PASTE STREAMLIT APP LINK HERE]
+Live app: https://hotel-cancellation-ml-fspynpmsm3bqyyi6eyujqp.streamlit.app/
 
 ## d. Models Used
 

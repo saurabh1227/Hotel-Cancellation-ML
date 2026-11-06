@@ -4,7 +4,7 @@
 Predict whether a hotel booking will be canceled (`is_canceled` = 1) or not (0) using booking details such as lead time, deposit type, market segment and special requests. Five classification models are implemented and compared on the same dataset using Accuracy, AUC, Precision, Recall, F1 and MCC. The trained models are deployed in a Streamlit app.
 
 ## b. Dataset Description
-- Source: Kaggle, Hotel Booking dataset [PASTE KAGGLE LINK HERE]
+- Source: Kaggle, Hotel Booking dataset https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 - Type: binary classification, target = `is_canceled`
 - Original size: ROWS rows x COLUMNS columns. After cleaning and encoding, a stratified sample of 25,000 rows with 46 input features was used (80/20 train-test split, stratified).
 - Preprocessing: removed leakage columns (`reservation_status`, `reservation_status_date`, `assigned_room_type`), dropped irrelevant / high-cardinality columns (`arrival_date_year`, `country`, `agent`, `company`), filled missing `children` with 0, replaced negative `adr` with the median, removed rows with 0 adults and outlier rows (10 children / 10 babies), label-encoded the month, and one-hot encoded the remaining categorical columns.

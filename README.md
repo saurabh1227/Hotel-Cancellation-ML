@@ -18,6 +18,8 @@ Live app: https://hotel-cancellation-ml-fspynpmsm3bqyyi6eyujqp.streamlit.app/
 | Naive Bayes | 0.5574 | 0.7819 | 0.4516 | 0.9024 | 0.6019 | 0.2828 |
 | Support Vector Machine | 0.8066 | 0.8576 | 0.8332 | 0.5982 | 0.6964 | 0.5766 |
 
+*Note: KNN values from the BITS Virtual Lab run differ marginally (3rd-4th decimal) from the saved models shown in the app; all other models match exactly.*
+
 ### Observations on model performance
 
 | ML Model Name | Observation about model performance |
